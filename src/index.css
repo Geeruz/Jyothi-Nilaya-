@@ -618,3 +618,45 @@ footer {
 .blue-btn:hover {
     transform: none;
 }
+.gallery-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px; /* Space between images */
+}
+  
+.gallery-col {
+    flex: 1 1 calc(33.33% - 16px); /* 3 images per row on large screens */
+    max-width: calc(33.33% - 16px);
+    box-sizing: border-box;
+}
+  
+.gallery-col img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+  /* Hover effect for images */
+.gallery-col img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+  
+  /* Responsive design for tablets */
+@media (max-width: 768px) {
+    .gallery-col {
+      flex: 1 1 calc(50% - 16px); /* 2 images per row on tablets */
+      max-width: calc(50% - 16px);
+    }
+}
+  
+  /* Responsive design for mobile */
+@media (max-width: 480px) {
+    .gallery-col {
+      flex: 1 1 100%; /* 1 image per row on small screens */
+      max-width: 100%;
+    }
+}

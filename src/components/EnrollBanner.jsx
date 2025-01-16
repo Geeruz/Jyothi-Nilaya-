@@ -1,8 +1,8 @@
 const EnrollBanner = () => {
     return (
         <section className="enroll-banner">
-            <h1>Enroll For Our Various Courses & <br /> Join Us From All Over India</h1>
-            <a href="/" className="hero-btn">ENROLL NOW</a>
+            <h1>Check Out Our Gallary <br /> To know more</h1>
+            <a href="/Courses" className="hero-btn">Click</a>
         </section>
     );
 }

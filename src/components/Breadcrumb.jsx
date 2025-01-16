@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
-import logo from '../assets/images/logo.png'
+import logo from '../assets/images/logo.jpg'
 
 const Breadcrumb = ({ title }) => {
   const showMenu = () => {
@@ -17,12 +17,12 @@ const Breadcrumb = ({ title }) => {
         <a href="/">
           <img src={logo} alt="Header Logo" />
         </a>
-        <h1>MIT ART DESIGN & TECHNOLOGY UNIVERSITY</h1>
+        <h1>Jyothi Nilaya</h1>
         <div className="nav-links" id="navLinks">
           <i className="fa fa-times" onClick={hideMenu}></i>
           <ul>
             <li><Link to="/">HOME</Link></li>
-            <li><Link to="/Courses">COURSES</Link></li>
+            <li><Link to="/Courses">GALLERY</Link></li>
             <li><Link to="/About">ABOUT</Link></li>
             <li><Link to="/Contact">CONTACT</Link></li>
           </ul>

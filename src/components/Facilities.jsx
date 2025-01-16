@@ -1,6 +1,6 @@
-import library from '../assets/images/library.jpeg'
-import sports from '../assets/images/sports.jpg'
-import canteen from '../assets/images/canteen.jpg'
+import PrayerHall from '../assets/images/PrayerHall.jpg'
+import Cafe from '../assets/images/Cafetaria.jpg'
+import space from '../assets/images/Open_Space.jpg'
 
 const Facilities = () => {
     return (
@@ -8,18 +8,18 @@ const Facilities = () => {
             <h1>Our Facilities</h1>
             <div className="row">
                 <div className="facilities-col">
-                    <img src={library} alt="Library" />
-                    <h3>Library</h3>
+                    <img src={PrayerHall} alt="Prayer Hall" />
+                    <h3>Prayer Hall</h3>
                 </div>
 
                 <div className="facilities-col">
-                    <img src={sports} alt="Sports" />
-                    <h3>Sports</h3>
+                    <img src={Cafe} alt="Cafe" />
+                    <h3>Cafeteria</h3>
                 </div>
 
                 <div className="facilities-col">
-                    <img src={canteen} alt="Canteen" />
-                    <h3>Food & Canteens</h3>
+                    <img src={space} alt="Open Space" />
+                    <h3>Open Space</h3>
                 </div>
             </div>
         </section>
