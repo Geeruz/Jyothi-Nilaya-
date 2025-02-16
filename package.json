@@ -4,12 +4,11 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"vite\" \"nodemon server/server.jsx\"",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "server": "node server/server.jsx",
-    "server:dev": "nodemon server/server.jsx"
+    "preview": "vite preview"
+
   },
   "dependencies": {
     "body-parser": "^1.20.3",

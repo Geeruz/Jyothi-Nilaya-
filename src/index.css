@@ -244,6 +244,7 @@ h3 {
 
 .campus-col {
     height: 450px;
+    width: 350px;
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 30px;
@@ -644,6 +645,44 @@ footer {
     transform: scale(1.05);
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
+.download-button {
+    display: inline-block; /* Ensures the button is inline-block */
+    background-color: #1e660a;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 20px 0; /* Adds some space above and below the button */
+  }
+  
+  .download-button:hover {
+    background-color: #09ea0d;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  thead th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1;
+  }
   
   /* Responsive design for tablets */
 @media (max-width: 768px) {
