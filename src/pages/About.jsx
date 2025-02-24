@@ -4,6 +4,7 @@ import applicationForm from "../assets/images/Applicationform.pdf";
 import aboutFac from "../assets/images/gallery5.jpg";
 import aboutFac2 from "../assets/images/gallery8.jpg";
 import aboutFac3 from "../assets/images/gallery10.jpg";
+import aboutTransport from "../assets/images/bus.jpg";
 
 const AboutUs = () => {
   return (
@@ -24,13 +25,15 @@ const AboutUs = () => {
           <div className="about-col" style={{ fontSize: '22px' }}>
             <h1>Jyothi Nilaya</h1>
             <p>
-              <b>
+              <b style={{ fontSize: '20px' }}>
                 Jyothi Nilaya Girl's Study House
               </b>
-              <br />
+              <p style={{ fontSize: '20px' }}>
               Jyothi Nilaya study house is a home away from home with well furnished rooms and well equipped Study hall.
-              <br />
+              </p>
+              <p style={{ fontSize: '20px' }}>
               It is a safe, secure and has all the facilities that a student needs. Committed to zero ragging and zero tolerance to alcohol, smoking and drugs.The study house is located in a serene and peaceful environment.
+              </p>
             </p>
           </div>
           <div className="about-col">
@@ -124,7 +127,7 @@ const AboutUs = () => {
             </ul>
           </div>
           <div className="about-col">
-            <img src={aboutFac2} alt="Transportation" />
+            <img src={aboutTransport} alt="Transportation" />
           </div>
         </div>
 
@@ -157,13 +160,6 @@ const AboutUs = () => {
               <li>Security cameras are installed throughout the premises.</li>
             </ul>
           </div>
-          <div className="about-col">
-            <img src={aboutFac2} alt="Others" />
-          </div>
-        </div>
-
-        {/* Things to be brought */}
-        <div className="row">
           <div className="about-col " style={{ fontSize: '22px' }}>
             <h2>Things to be brought</h2>
             <ul>
@@ -175,10 +171,11 @@ const AboutUs = () => {
               <li>Iron Box</li>
             </ul>
           </div>
-          <div className="about-col">
-            <img src={aboutFac2} alt="Things to bring" />
-          </div>
         </div>
+          
+        
+
+        
       </div>
     </div>
   );

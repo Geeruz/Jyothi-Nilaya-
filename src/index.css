@@ -631,6 +631,10 @@ footer {
     max-width: calc(33.33% - 16px);
     box-sizing: border-box;
 }
+.gallery-text{
+    text-align: center;
+    margin-top: 20px;
+}
   
 .gallery-col img {
     width: 100%;

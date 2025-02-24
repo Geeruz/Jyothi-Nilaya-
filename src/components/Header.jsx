@@ -1,6 +1,6 @@
 import {Link} from 'react-router-dom';
 import Hero from './Hero';
-import logo from '../assets/images/logo.jpg';
+import logo from '../assets/images/logo1.png';
 
 const Header = () => {
   const showMenu = () => {

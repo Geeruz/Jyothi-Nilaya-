@@ -16,9 +16,9 @@ const Gallery = () => {
 
       <Breadcrumb title="Gallery" />
       <div className="gallery">
-        <p>
-          Explore moments and highlights from our university through this gallery.
-        </p>
+        <b className="gallery-text">
+        This section presents a collection of images showcasing Jyothi Nilaya from various angles. These pictures highlight the architectural design, ambiance, and key facilities available within the premises. From exterior views capturing the grandeur of the building to interior shots displaying well-equipped rooms, lounges, and other amenities, this visual representation offers a comprehensive look into what Jyothi Nilaya has to offer.
+        </b>
 
         <div className="row">
           <div className="facilities-col">

@@ -37,7 +37,7 @@ const Contact = () => {
             <iframe 
               src="https://docs.google.com/forms/d/e/1FAIpQLSdIvlE4_OKi5j4w1LcVBpFPnYTQ5U5LPUpqb_DK9NGhvxca6Q/viewform?usp=header"
               width="100%"
-              height="500px"
+              height="500px" 
               style={{ border: "none" }}
               allowFullScreen
             ></iframe>
