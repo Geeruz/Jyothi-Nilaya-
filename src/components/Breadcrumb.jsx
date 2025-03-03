@@ -22,7 +22,7 @@ const Breadcrumb = ({ title }) => {
           <i className="fa fa-times" onClick={hideMenu}></i>
           <ul>
             <li><Link to="/">HOME</Link></li>
-            <li><Link to="/Courses">GALLERY</Link></li>
+            <li><Link to="/Gallery">GALLERY</Link></li>
             <li><Link to="/About">ABOUT</Link></li>
             <li><Link to="/Contact">CONTACT</Link></li>
           </ul>
