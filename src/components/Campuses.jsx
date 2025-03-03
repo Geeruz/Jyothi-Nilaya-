@@ -13,7 +13,7 @@ const Campuses = () => {
 
                 <div className="campus-col">
                     <img src={campus02} alt="Campus" />
-                </div>
+                </div> 
 
                 <div className="campus-col">
                     <img src={campus03} alt="Campus" />

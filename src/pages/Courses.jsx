@@ -9,6 +9,8 @@ import gallery7 from "../assets/images/gallery7.jpg";
 import gallery8 from "../assets/images/gallery8.jpg";
 import gallery9 from "../assets/images/gallery9.jpg";
 import gallery10 from "../assets/images/gallery10.jpg";
+import gallery11 from "../assets/images/Open_Space.jpg";
+import gallery12 from "../assets/images/campus4.jpg";
 
 const Gallery = () => {
   return (
@@ -59,6 +61,12 @@ const Gallery = () => {
         <div className="row">
           <div className="facilities-col">
             <img src={gallery10} alt="Gallery 10" />
+          </div>
+          <div className="facilities-col">
+            <img src={gallery11} alt="Gallery 10" />
+          </div>
+          <div className="facilities-col">
+            <img src={gallery12} alt="Gallery 10" />
           </div>
         </div>
       </div>
