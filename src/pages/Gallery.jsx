@@ -19,7 +19,7 @@ const Gallery = () => {
       <Breadcrumb title="Gallery" />
       <div className="gallery">
         <b className="gallery-text">
-        This section presents a collection of images showcasing Jyothi Nilaya from various angles. These pictures highlight the architectural design, ambiance, and key facilities available within the premises. From exterior views capturing the grandeur of the building to interior shots displaying well-equipped rooms, lounges, and other amenities, this visual representation offers a comprehensive look into what Jyothi Nilaya has to offer.
+          <h1>Home Away From Home</h1>
         </b>
 
         <div className="row">

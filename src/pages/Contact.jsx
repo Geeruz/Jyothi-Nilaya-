@@ -42,7 +42,7 @@ const Contact = () => {
             <div>
               <i className="fa fa-envelope"></i>
               <span>
-                <h5>For General Enquiry: jyothinilaya12@gmail.com</h5>
+                <h5>For General Enquiry: jyothinilaya17@gmail.com</h5>
               </span>
             </div>
 

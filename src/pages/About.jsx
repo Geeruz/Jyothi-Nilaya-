@@ -4,6 +4,7 @@ import applicationForm from "../assets/images/Applicationform.pdf";
 import aboutFac from "../assets/images/gallery5.jpg";
 import aboutFac2 from "../assets/images/gallery8.jpg";
 import aboutFac3 from "../assets/images/gallery10.jpg";
+import aboutFac4 from "../assets/images/guidlines.jpg";
 import aboutTransport from "../assets/images/bus.jpg";
 
 const AboutUs = () => {
@@ -26,7 +27,7 @@ const AboutUs = () => {
             <h1>Jyothi Nilaya</h1>
             <p>
               <b style={{ fontSize: '20px' }}>
-                Jyothi Nilaya Girl's Study House
+                Jyothi Nilaya Study House
               </b>
               <p style={{ fontSize: '20px' }}>
               Jyothi Nilaya study house is a home away from home with well furnished rooms and well equipped Study hall.
@@ -123,7 +124,7 @@ const AboutUs = () => {
               <li>All students can board the college bus, BMTC, or an auto-rickshaw.</li>
               <li>College buses fetch students from different parts of the city as early as 8:20 AM.</li>
               <li>BMTC buses stop opposite the hostel or can be boarded from the nearest bus stop, i.e., Pepsi Gate.</li>
-              <li>Auto-rickshaws are available just outside the hostel gate.</li>
+              <li>Auto-rickshaws are available inside hostel.</li>
             </ul>
           </div>
           <div className="about-col">
@@ -140,10 +141,31 @@ const AboutUs = () => {
               <li>On Sundays, breakfast, lunch, and dinner are provided.</li>
               <li>Vegetarian and non-vegetarian food is available.</li>
               <li>A common refrigerator is available for students' use.</li>
+              <li>Breakfast timings: 7:30am to 8:30 am.</li>
+              <li>Dinner timings: 7:30pm to 8:30 pm.</li>
+              <li>Students are not allowed to take food to their rooms.</li>
             </ul>
           </div>
           <div className="about-col">
             <img src={aboutFac3} alt="Food" />
+          </div>
+        </div>
+        {/* guidelines */}
+        <div className="row">
+          <div className="about-col" style={{ fontSize: '22px' }}>
+            <h2>Guidelines</h2>
+            <ul>
+              <li>During weekends, if student wishes to go home they should take the permission from the warden as well as a written request from their parents.</li>
+              <li>No students will be permitted to stay over night at their friends' house.</li>
+              <li>If the student leaves the hostel before completing the period of one year, the fees and the deposit amount will not be refunded.</li>
+              <li>If any student is found misbehaving, she will be expelled from the hostel and the fees adn the caution deposit will not be refunded.</li>
+              <li>Students are expected to keep their rooms neat and tidy.</li>
+              <li>Students can use the facilites of playing indoor games.</li>
+              <li>Caution deposit will be refunded after deducting Rs.500/.</li>
+            </ul>
+          </div>
+          <div className="about-col">
+            <img src={aboutFac4} alt="Food" />
           </div>
         </div>
 
@@ -153,10 +175,10 @@ const AboutUs = () => {
             <h2>Others</h2>
             <ul>
               <li>Wi-Fi is provided to all students throughout the year.</li>
-              <li>All electronic gadgets except laptops, phones, and iron boxes are strictly prohibited.</li>
+              <li>All electronic gadgets except laptops, phones, and iron box are strictly prohibited.</li>
               <li>Students are required to give their attendance via the biometric machine.</li>
               <li>Students are required to be in the hostel on or before 7:30 PM.</li>
-              <li>Laundry facilities and washing machines are provided.</li>
+              <li>Laundry facilities and washing machines are available for those who need it.</li>
               <li>Security cameras are installed throughout the premises.</li>
             </ul>
           </div>

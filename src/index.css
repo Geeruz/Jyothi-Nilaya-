@@ -633,7 +633,11 @@ footer {
 }
 .gallery-text{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 40px;
+    color: #221f86b5;
+}
+.important-text{
+    color: #fc0000b5;
 }
   
 .gallery-col img {
