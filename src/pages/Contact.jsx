@@ -50,7 +50,7 @@ const Contact = () => {
               <i className="fa fa-map-marker"></i>
               <span>
                 <h5>View on Google Maps</h5>
-                <p><a href="https://www.google.com/maps/place/Your+Location+Address" target="_blank" rel="noopener noreferrer">Opp. Pepsi Bus Stop, Mysore Road, Kumbalgodu P.O., Bangalore-560074, Karnataka India</a></p>
+                <p><a href="https://maps.app.goo.gl/ZxqxBnJo3guic1Hp7" target="_blank" rel="noopener noreferrer">Opp. Pepsi Bus Stop, Mysore Road, Kumbalgodu P.O., Bangalore-560074, Karnataka India</a></p>
               </span>
             </div>
           </div>
