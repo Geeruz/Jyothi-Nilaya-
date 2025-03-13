@@ -4,18 +4,18 @@ import campus03 from '../assets/images/campus03.jpg'
 
 const Campuses = () => {
     return (
-        <section className="campus">
+        <section className="facilities">
             <h1>Housing</h1>
             <div className="row">
-                <div className="campus-col">
+                <div className="facilities-col">
                     <img src={campus01 } alt="Campus" />
                 </div>
 
-                <div className="campus-col">
+                <div className="facilities-col">
                     <img src={campus02} alt="Campus" />
                 </div> 
 
-                <div className="campus-col">
+                <div className="facilities-col">
                     <img src={campus03} alt="Campus" />
                 </div>
             </div>
