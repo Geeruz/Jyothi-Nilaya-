@@ -31,10 +31,8 @@ const AboutUs = () => {
                 Jyothi Nilaya Study House
               </b>
               <p style={{ fontSize: '20px' }}>
-              Jyothi Nilaya study house is a home away from home with well furnished rooms and well equipped Study hall.
-              </p>
-              <p style={{ fontSize: '20px' }}>
-              It is a safe, secure and has all the facilities that a student needs. Committed to zero ragging and zero tolerance to alcohol, smoking and drugs.The study house is located in a serene and peaceful environment.
+              Jyothi Nilaya study house is a home away from home with well furnished rooms and well equipped Study hall. It is a safe, secure place where students have all facilites for their study. Committed to zero ragging and zero tolerance to alcohol, smoking, drugs and disciplinary misconduct.The facilites, thus ensure comfort and quality life for our students.
+
               </p>
             </p>
           </div>
@@ -126,7 +124,7 @@ const AboutUs = () => {
               <li>All students can board the college bus, BMTC, or an auto-rickshaw.</li>
               <li>College buses fetch students from different parts of the city as early as 8:20 AM.</li>
               <li>BMTC buses stop opposite the hostel or can be boarded from the nearest bus stop, i.e., Pepsi Gate.</li>
-              <li>Auto-rickshaws are available near hostel gate.</li>
+              <li>Auto-rickshaws are available at hostel gate.</li>
             </ul>
           </div>
           <div className="about-col">
@@ -177,10 +175,10 @@ const AboutUs = () => {
             <h2>Others</h2>
             <ul>
               <li>Wi-Fi is provided to all students throughout the year.</li>
-              <li>All electronic gadgets except laptops, phones, and iron box are strictly prohibited.</li>
+              <li>All electronic gadgets, except laptops, phones, and iron are strictly prohibited.</li>
               <li>Students are required to give their attendance via the biometric machine.</li>
               <li>Students are required to be in the hostel on or before 7:30 PM.</li>
-              <li>Laundry facilities and washing machines are available for those who need it.</li>
+              <li>Laundry facilities are available for those who need it.</li>
               <li>Security cameras are installed throughout the premises.</li>
             </ul>
           </div>
@@ -192,7 +190,7 @@ const AboutUs = () => {
               <li>Plates, Glass/Cup</li>
               <li>Lock for the cupboard</li>
               <li>Bucket/Mug</li>
-              <li>Iron Box</li>
+              <li>Iron</li>
             </ul>
           </div>
         </div>
