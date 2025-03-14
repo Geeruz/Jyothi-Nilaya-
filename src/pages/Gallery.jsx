@@ -11,6 +11,7 @@ import gallery9 from "../assets/images/gallery9.jpg";
 import gallery10 from "../assets/images/gallery10.jpg";
 import gallery11 from "../assets/images/Open_Space.jpg";
 import gallery12 from "../assets/images/campus4.jpg";
+import gallery13 from "../assets/images/doubleBed.jpg";
 
 const Gallery = () => {
   return (
@@ -18,9 +19,7 @@ const Gallery = () => {
 
       <Breadcrumb title="Gallery" />
       <div className="gallery">
-        <b className="gallery-text">
-          <h1>Home Away From Home</h1>
-        </b>
+        <h1 className="gallery-text">Home Away From Home</h1>
 
         <div className="row">
           <div className="facilities-col">
@@ -54,7 +53,7 @@ const Gallery = () => {
             <img src={gallery8} alt="Gallery 8" />
           </div>
           <div className="facilities-col">
-            <img src={gallery9} alt="Gallery 9" />
+            <img src={gallery13} alt="Gallery 9" />
           </div>
         </div>
 

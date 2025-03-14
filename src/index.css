@@ -633,7 +633,8 @@ footer {
 }
 .gallery-text{
     text-align: center;
-    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-top: 100px;
     color: #221f86b5;
 }
 .important-text{

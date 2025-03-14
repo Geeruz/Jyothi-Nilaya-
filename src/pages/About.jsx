@@ -5,6 +5,7 @@ import aboutFac from "../assets/images/gallery5.jpg";
 import aboutFac2 from "../assets/images/gallery8.jpg";
 import aboutFac3 from "../assets/images/gallery10.jpg";
 import aboutFac4 from "../assets/images/guidlines.jpg";
+import aboutFac5 from "../assets/images/doubleBed.jpg";
 import aboutTransport from "../assets/images/bus.jpg";
 
 const AboutUs = () => {
@@ -115,6 +116,7 @@ const AboutUs = () => {
           <div className="about-col">
             <img src={aboutFac2} alt="Aboutfac2" />
           </div>
+          
         </div>
         {/* Transportation */}
         <div className="row">
@@ -124,7 +126,7 @@ const AboutUs = () => {
               <li>All students can board the college bus, BMTC, or an auto-rickshaw.</li>
               <li>College buses fetch students from different parts of the city as early as 8:20 AM.</li>
               <li>BMTC buses stop opposite the hostel or can be boarded from the nearest bus stop, i.e., Pepsi Gate.</li>
-              <li>Auto-rickshaws are available inside hostel.</li>
+              <li>Auto-rickshaws are available near hostel gate.</li>
             </ul>
           </div>
           <div className="about-col">
@@ -158,7 +160,7 @@ const AboutUs = () => {
               <li>During weekends, if student wishes to go home they should take the permission from the warden as well as a written request from their parents.</li>
               <li>No students will be permitted to stay over night at their friends' house.</li>
               <li>If the student leaves the hostel before completing the period of one year, the fees and the deposit amount will not be refunded.</li>
-              <li>If any student is found misbehaving, she will be expelled from the hostel and the fees adn the caution deposit will not be refunded.</li>
+              <li>If any student is found misbehaving, she will be expelled from the hostel and the fees and the caution deposit will not be refunded.</li>
               <li>Students are expected to keep their rooms neat and tidy.</li>
               <li>Students can use the facilites of playing indoor games.</li>
               <li>Caution deposit will be refunded after deducting Rs.500/.</li>
